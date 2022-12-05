@@ -18,7 +18,7 @@ SUBPKG_0_FW = firmware (>= 12.2), firmware (<< 14.0)
 
 SUBPKG_1_ID = 14
 SUBPKG_1_NAME = iOS 14
-SUBPKG_1_FW = firmware (>= 14.0), firmware (<< 16.0)
+SUBPKG_1_FW = firmware (>= 14.0), firmware (<< 17.0)
 
 ifeq ($(SWIFT_VERSION_COMPUTED),)
 export SWIFT_VERSION_COMPUTED := 1
